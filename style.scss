@@ -1,0 +1,26 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@100&family=Otomanopee+One&display=swap');
+
+$main-color: #0a1b2b;
+$text-color: #fdb515;
+
+
+body {
+    background-color: $main-color;
+    font-family: 'Encode Sans SC', sans-serif;
+    color: $text-color;
+}
+
+.navbar {
+    background-color: $text-color;
+}
+
+.navbar-brand {
+    color: $main-color;
+    font-family: 'Otomanopee One', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+.top-text {
+    text-align: center;
+}
